@@ -31,6 +31,11 @@ function displayCourses(courses){
 
     courses.forEach(course =>{
         courseTableEl.innerHTML += `
+            <tr>
+                <td>${course.code}</td>
+                <td>${course.coursename}</td>
+                <td>${course.progression}</td>
+            </tr>
         `;
     })
 
