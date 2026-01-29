@@ -19,5 +19,12 @@ async function loadData(){
 function displayCourses(courses){
     const courseTableEl = document.querySelector("#course-table-body");
 
+    courseTableEl.innerHTML = "";
+
+    courses.forEach(course =>{
+        courseTableEl.innerHTML += `
+        `;
+    })
+
     console.table(courses);
 }
