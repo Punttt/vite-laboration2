@@ -44,6 +44,14 @@ main input {
     width: 100%;
 }
 
+/* Table */
+main table {
+    width: 100%;
+    font-size: clamp(0.9rem, 1.2rem, 1.2rem);
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
 /* Footer */
 footer {
     padding: 2rem 0;
