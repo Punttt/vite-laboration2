@@ -52,6 +52,10 @@ main table {
     cursor: pointer;
 }
 
+main table th {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     padding: 2rem 0;
