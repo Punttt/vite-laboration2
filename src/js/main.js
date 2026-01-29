@@ -38,6 +38,4 @@ function displayCourses(courses){
             </tr>
         `;
     })
-
-    console.table(courses);
 }
