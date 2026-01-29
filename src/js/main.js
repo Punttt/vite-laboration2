@@ -21,6 +21,14 @@ function displayCourses(courses){
 
     courseTableEl.innerHTML = "";
 
+    /* Struktur för utskrift
+    <tr>
+        <td>dt057g</td>
+        <td>Webbutveckling I</td>
+        <td>A</td>
+    </tr>
+    */
+
     courses.forEach(course =>{
         courseTableEl.innerHTML += `
         `;
