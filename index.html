@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vite-laboration2</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <h1>ECMAScript</h1>
+        </header>
+        <main>
+            <h2>Webbutveckling - Ramschema</h2>
+            <label for="rsearch">Sök:</label>
+            <input type="search" id="rsearch" name="rsearch" placeholder="Sök efter kurskod eller kursnamn">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Kurskod</th>
+                        <th scope="col">Namn</th>
+                        <th scope="col">Progression</th>
+                    </tr>
+                </thead>
+                <tbody id="course-table-body"></tbody>
+            </table>
+        </main>
+        <footer>
+            <p>&copy; Pontus Johansson, 2026</p>
+        </footer>
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
