@@ -9,3 +9,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
 }
+
+/* Utility classes */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
