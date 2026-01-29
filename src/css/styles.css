@@ -62,6 +62,14 @@ main table, th, td {
     padding: 0.5rem 0.25rem;
 }
 
+main table,th:last-child ,td:last-child {
+    text-align: center;
+}
+
+main table tr:hover{
+    background-color: tomato;
+}
+
 /* Footer */
 footer {
     padding: 2rem 0;
