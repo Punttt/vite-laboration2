@@ -10,6 +10,20 @@ body {
     font-size: 16px;
 }
 
+/* Header */
+header {
+    padding: 1rem;
+    color: white;
+}
+
+/* Main content */
+main {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
 /* Utility classes */
 
 .container {
