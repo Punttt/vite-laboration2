@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", async ()=>{
 });
 
 async function loadData(){
-    console.log("test")
+    const url = "https://webbutveckling.miun.se/files/ramschema.json";
 }
