@@ -1,3 +1,5 @@
+let allCourses = [];
+
 document.addEventListener("DOMContentLoaded", async ()=>{
     loadData();
 });
