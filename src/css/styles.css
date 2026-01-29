@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: tomato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    padding: 1rem;
+    color: white;
+}
+
+/* Main content */
+main {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Fontsizing */
+main h2 {
+    font-size: clamp(1.8rem, 4vw, 4rem);
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+/* Forms */
+main label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+main input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    display: block;
+    width: 100%;
+}
+
+/* Table */
+main table {
+    width: 100%;
+    font-size: clamp(0.9rem, 1.2rem, 1.2rem);
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+main table th {
+    text-decoration: underline;
+}
+
+main table, th, td {
+    text-align: left;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding: 0.75rem 0.25rem;
+}
+
+main table,th:last-child ,td:last-child {
+    text-align: center;
+}
+
+main table tr:hover{
+    background-color: tomato;
+}
+
+/* Footer */
+footer {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Utility classes */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
