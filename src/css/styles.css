@@ -24,6 +24,13 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
+/* Fontsizing */
+main h2 {
+    font-size: clamp(1.8rem, 4vw, 4rem);
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
 /* Footer */
 footer {
     padding: 2rem 0;
