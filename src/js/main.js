@@ -76,7 +76,7 @@ function searchCourse(){
         course.progression.toLowerCase().includes(value);
     });
 
-    console.table(filterCourses);
+    displayCourses(filterCourses);
 }
 
 function sortBy(value){
