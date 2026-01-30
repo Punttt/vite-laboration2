@@ -70,5 +70,5 @@ function sortAndSearch(){
 
 function sortBy(value){
     allCourses.sort((a, b) => (a[value] > b[value]) ?1:-1);
-    console.table(allCourses);
+    displayCourses(allCourses);
 }
