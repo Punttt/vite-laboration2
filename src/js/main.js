@@ -11,6 +11,8 @@ async function loadData(){
         const response = await fetch(url);
         const courses = await response.json();
 
+        allCourses = courses;
+
         displayCourses(courses);
         sortAndSearch();
 
