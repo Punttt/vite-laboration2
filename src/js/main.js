@@ -12,6 +12,7 @@ async function loadData(){
         const courses = await response.json();
 
         displayCourses(courses);
+        sortAndSearch();
 
     } catch(error){
         console.error("fel:", error);
@@ -40,4 +41,27 @@ function displayCourses(courses){
             </tr>
         `;
     })
+}
+
+function sortAndSearch(){
+    /* Sökfunktionen */
+    document.getElementById("rsearch").addEventListener("keyup", ()=>{
+        console.log("testar search");
+    })
+
+    /* Sortering - Kurskod */
+    document.getElementById("sort-code").addEventListener("click", ()=>{
+        console.log("Testar sort-code");
+    })
+
+    /* Sortering - Kursnamn */
+    document.getElementById("sort-name").addEventListener("click", ()=>{
+        console.log("Testar sort-name");
+    })
+
+    /* Sortering - Progression*/
+    document.getElementById("sort-prog").addEventListener("click", ()=>{
+        console.log("Testar sort-prog");
+    })
+
 }
