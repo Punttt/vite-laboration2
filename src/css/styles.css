@@ -53,6 +53,7 @@ main table {
 
 main table th {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 main table, th, td {
