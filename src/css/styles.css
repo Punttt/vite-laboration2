@@ -49,7 +49,6 @@ main table {
     width: 100%;
     font-size: clamp(0.9rem, 1.2rem, 1.2rem);
     border-collapse: collapse;
-    cursor: pointer;
 }
 
 main table th {
@@ -64,10 +63,6 @@ main table, th, td {
 
 main table,th:last-child ,td:last-child {
     text-align: center;
-}
-
-main table tr:hover{
-    background-color: tomato;
 }
 
 /* Footer */
