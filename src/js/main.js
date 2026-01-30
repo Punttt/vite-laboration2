@@ -48,7 +48,7 @@ function displayCourses(courses){
 function sortAndSearch(){
     /* Sökfunktionen */
     document.getElementById("rsearch").addEventListener("keyup", ()=>{
-        console.log("testar search");
+        searchCourse();
     })
 
     /* Sortering - Kurskod */
@@ -66,6 +66,11 @@ function sortAndSearch(){
         sortBy("progression");
     })
 
+}
+
+function searchCourse(){
+    const value = document.getElementById("rsearch").value.toLowerCase();
+    console.log(value);
 }
 
 function sortBy(value){
