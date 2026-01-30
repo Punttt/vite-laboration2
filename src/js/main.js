@@ -54,22 +54,16 @@ function sortAndSearch(){
     /* Sortering - Kurskod */
     document.getElementById("sort-code").addEventListener("click", ()=>{
         sortBy("code");
-
-        console.log("Testar sort-code");
     })
 
     /* Sortering - Kursnamn */
     document.getElementById("sort-name").addEventListener("click", ()=>{
         sortBy("coursename")
-
-        console.log("Testar sort-name");
     })
 
     /* Sortering - Progression*/
     document.getElementById("sort-prog").addEventListener("click", ()=>{
         sortBy("progression");
-
-        console.log("Testar sort-prog");
     })
 
 }
