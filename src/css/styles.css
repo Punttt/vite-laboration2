@@ -54,9 +54,12 @@ main table {
 main table th {
     text-decoration: underline;
     cursor: pointer;
+    text-align: left;
+    padding: 0.75rem 0.25rem;
+    border-bottom: 1px solid rgb(216, 216, 216);
 }
 
-main table, th, td {
+main table td {
     text-align: left;
     border-bottom: 1px solid rgb(216, 216, 216);
     padding: 0.75rem 0.25rem;
