@@ -63,7 +63,13 @@ function sortAndSearch(){
 
     /* Sortering - Progression*/
     document.getElementById("sort-prog").addEventListener("click", ()=>{
+        sortBy("progression");
         console.log("Testar sort-prog");
     })
 
+}
+
+function sortBy(value){
+    allCourses.sort((a, b) => (a[value] > b[value]) ?1:-1);
+    console.table(allCourses);
 }
