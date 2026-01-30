@@ -70,7 +70,13 @@ function sortAndSearch(){
 
 function searchCourse(){
     const value = document.getElementById("rsearch").value.toLowerCase();
-    console.log(value);
+    const filterCourses = allCourses.filter(course => {
+        return course.code.toLowerCase().includes(value) || 
+        course.coursename.toLowerCase().includes(value) ||
+        course.progression.toLowerCase().includes(value);
+    });
+
+    console.table(filterCourses);
 }
 
 function sortBy(value){
