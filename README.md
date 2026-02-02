@@ -8,6 +8,7 @@ Detta projekt är en enkel webbplats som hämtar en lista med kurser från en JS
 Projektet är byggt med HTML, CSS, JavaScript och en automatisera utvecklingsmiljö via Vite för snabbare arbetsflöde och bättre uppdatering vid utveckling.
 
 Installation: npm install npm run dev
+
 Bygg projektet: npm run build
 
 Publicerad webbplats:  https://vitelab2.netlify.app/
