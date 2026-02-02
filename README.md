@@ -1,6 +1,6 @@
-#Kurslista med sortering
+Kurslista med sortering
 
-##Beskrivning
+Beskrivning:
 Detta projekt är en enkel webbplats som hämtar en lista med kurser från en JSON-fil och presentera dem i en tabell:
 - Man kan sortera listan genom att klicka på rubrikerna.
 - Man kan söka bland kurserna i realtid med hjälp av sökfältet.
